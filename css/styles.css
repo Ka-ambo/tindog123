@@ -1,0 +1,197 @@
+body
+{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+#title
+{
+  background-color: #ff4c68;
+  color:#fff;
+}
+h1
+{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2
+{
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  padding: 0 5rem 2rem 0.5rem;
+  color: black;
+  line-height: 1.5;
+}
+h3
+{
+  font-family: 'Montserrat';
+  font-weight:bold;
+  font-size: 1.5rem;
+}
+/* p
+{
+  line-height: 2;
+  color: #BfBfBf;
+} */
+em
+{
+  margin-left: 15px;
+  font-family: 'Montserrat';
+  font-size: 0.7rem;
+}
+.container-fluid
+{
+  padding: 3% 15%;
+}
+/* Navigation Bar-------------------------------------------------------------------------- */
+.navbar
+{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-item
+{
+  padding: 0 18px ;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight:lighter;
+}
+/* Button------------------------------------------------------------------------------- */
+.dowload-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image------------------------------------------------------------------------------- */
+.title-img
+{
+  width: 15rem;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+/* Features----------------------------------------------------------------------------------- */
+.features
+{
+  z-index: 1;
+  position: relative;
+  padding: 6.63rem 7rem 3.125rem 7rem ;
+  background-color: #fff;
+
+}
+.feature-list
+{
+  margin-bottom: 3.125rem;
+  padding: 0 6rem 0 6rem;
+}
+.feature-img
+{
+  margin-bottom: 1rem;
+  height:2.5rem;
+  color: #ef8172;
+}
+.feature-img:hover
+{
+  color: #ff4c68;
+}
+
+/* Testimonials-------------------------------------------------------------------------------------------------- */
+#testimonials
+{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-title
+{
+  color:#fff;
+}
+.testimonial-img
+{
+  width: 3.5rem;
+  border-radius: 100%;
+  padding: 0;
+}
+.carousel-item
+{
+padding: 7rem 15rem;
+}
+/* press---------------------------------------------------------------------------------------------------------- */
+#press
+{
+    background-color: #ef8172;
+    padding: 0 15rem 7rem 15rem;
+}
+.press-img
+{
+  width: 11rem;
+  margin: 0 1.5rem 1rem 2.5rem;
+}
+/* Pricing------------------------------------------------------------------------------------------------------ */
+#pricing
+{
+  padding: 7rem 14rem;
+}
+.pricing-title
+{
+  padding: 3rem 6.25rem;
+}
+.amount
+{
+  padding: 0;
+  font-weight: 700;
+}
+.btn-block
+{
+  width:100%;
+}
+
+/* MediaQyery------------------------------------------------------------------------------------------------------ */
+@media (max-width: 1265px) {
+  .title-img
+  {
+    transform: rotate(0);
+    position: static;
+  }
+  #title
+  {
+    text-align: center;
+  }
+
+}
+
+/* CTA========================================================================================================== */
+#cta
+{
+  background-color: #ff4c68;
+  padding:3.125rem;
+}
+.footer-title
+{
+  color: #fff;
+  line-height: 1.5;
+  padding: 0 30rem;
+}
+.cta-button
+{
+  margin: 1.5rem 1rem 1.5rem 1rem;
+}
+/* FOOTER--------------------------------------------------------------------------------------------------------------- */
+#footer
+{
+    padding: 3.125rem;
+}
+
+.footer-logo
+{
+  margin:20px 10px;
+}
