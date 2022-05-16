@@ -155,19 +155,6 @@ padding: 7rem 15rem;
   width:100%;
 }
 
-/* MediaQyery------------------------------------------------------------------------------------------------------ */
-@media (max-width: 1265px) {
-  .title-img
-  {
-    transform: rotate(0);
-    position: static;
-  }
-  #title
-  {
-    text-align: center;
-  }
-
-}
 
 /* CTA========================================================================================================== */
 #cta
@@ -194,4 +181,25 @@ padding: 7rem 15rem;
 .footer-logo
 {
   margin:20px 10px;
+}
+/* MediaQyery------------------------------------------------------------------------------------------------------ */
+@media (max-width: 1265px) {
+  .title-img
+  {
+    transform: rotate(0);
+    position: static;
+  }
+  #title
+  {
+    text-align: center;
+  }
+ .footer-title
+ {
+   padding:0 10rem;
+ }
+ #pricing
+ {
+    padding: 7rem 1rem;
+ }
+
 }
